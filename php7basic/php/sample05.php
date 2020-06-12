@@ -18,10 +18,9 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<!-- ここにプログラムを記述します -->
-<?php
-print(123+2*5/3);
-?>
+<?php $sum = 100+1050+200; ?> 
+合計金額は:<?php print($sum); ?>円です
+税込価格は:<?php print(($sum)*1.08); ?>円です
 </pre>
 </main>
 </body>    
